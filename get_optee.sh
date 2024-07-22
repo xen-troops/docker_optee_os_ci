@@ -3,8 +3,8 @@
 # 1. Clone OP-TEE development environment for the specified platform
 # 2. Download the cross-compile toolchain
 
-PLAT=${1:-default}
-ROOT_DIR=${2:-/root/optee}
+PLAT=qemu_v8
+ROOT_DIR=/root/optee
 set -e
 mkdir -p ${ROOT_DIR}
 cd ${ROOT_DIR}
